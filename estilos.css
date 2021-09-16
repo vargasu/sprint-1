@@ -1,0 +1,29 @@
+*{margin: 0;
+	padding: 0;
+	border: 0;
+}
+.contenedor1{
+	text-align: center;
+	float: left;
+	width: 60%;
+	margin: 20px;
+	background-color: red;
+
+}
+.contenedor2{
+	float: left;
+	width: 30%;
+	margin: 20px;
+	background-color: grey;
+}
+body{
+	margin: 0;
+	background-color: lightpink;
+	padding: 0;
+}
+#logo_navbar{
+	width: 80%;
+}
+.vertical_navbar{
+	background-color: yellow;
+}
