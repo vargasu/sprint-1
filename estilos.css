@@ -1,29 +1,179 @@
-*{margin: 0;
-	padding: 0;
-	border: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
-.contenedor1{
-	text-align: center;
-	float: left;
-	width: 60%;
-	margin: 20px;
-	background-color: red;
 
+.container1 {
+    background: url(https://drive.google.com/uc?export=view&id=1jxyp8QkPHMkMPrqkMfDYt3wTd_vP9ydF);
+    background-size: cover;
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 85%;
+    height: 100vh;
+    float: left;
 }
-.contenedor2{
-	float: left;
-	width: 30%;
-	margin: 20px;
-	background-color: grey;
+
+.description {
+    text-align: center;
+    padding: 6% 8% 4% 6%;
 }
-body{
-	margin: 0;
-	background-color: lightpink;
-	padding: 0;
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
 }
-#logo_navbar{
-	width: 80%;
+
+.tituloPrincipal {
+    color: aliceblue;
+    font-size: 55px;
 }
-.vertical_navbar{
-	background-color: yellow;
+
+.parte1 {
+    color: #197CAE;
+}
+
+.descripcionProducto {
+    margin-bottom: 10px;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.subContDescript {
+    margin: 20px 80px;
+    text-align: center;
+}
+
+.sub1 {
+    margin-right: 4%;
+    width: 48%;
+    float: left;
+}
+
+.sub2 {
+    width: 48%;
+    float: right;
+}
+
+.img1 {
+    width: 70px;
+    height: 70px;
+}
+
+.img2 {
+    width: 70px;
+    height: 70px;
+}
+
+.pdes {
+    color: aliceblue;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+/* menu de navegacion */
+
+.container2 {
+    float: right;
+    background-color: #182322;
+    width: 15%;
+    height: 100vh;
+    text-align: center;
+}
+
+.imgLogo {
+    width: 50%;
+    float: top;
+    padding-top: 40px;
+}
+
+.btnRegistro {
+    position: relative;
+    float: inherit;
+    margin-top: 200%;
+    text-align: center;
+}
+
+button {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 15px;
+    border: none;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font: 15px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e8632e;
+    background-image: -moz-linear-gradient(top, #e8632e 0%, #a5192a 100%);
+    background-image: -webkit-linear-gradient(top, #e8632e 0%, #a5192a 100%);
+    background-image: -o-linear-gradient(top, #e8632e 0%, #a5192a 100%);
+    background-image: -ms-linear-gradient(top, #e8632e 0%, #a5192a 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a5192a', endColorstr='#a5192a', GradientType=0);
+}
+
+#link_Registro {
+    display: block;
+}
+
+
+/* formulario */
+
+.tituloForm {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.form {
+    width: 340px;
+    height: 440px;
+    background: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative
+}
+
+.labForm {
+    margin-top: 20px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2
+}
+
+input:focus {
+    border-bottom: 2px solid #78788c
+}
+
+.btnValidar {
+    float: right;
+    margin: 50px 0px 30px 0px;
+    cursor: pointer;
+    transition: all .3s
+}
+
+button:hover {
+    background: #78788c;
+    color: #fff
 }
