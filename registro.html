@@ -1,25 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-	<meta charset="utf-8">
-	<title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Fuentes   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<form id="form_registrarse">
-	<label>Nombre del usuario:</label><br>
-	<input type="text" name="in_nombre_usuario" id="in_nombre_usuario">
-	<p></p>
 
-	<label>Contraseña:</label><br>
-	<input type="password" name="in_contrasena" id="in_contrasena">
-	<p></p>
+    <div class="container1">
 
-    <label>Conformar contraseña:</label><br>
-	<input type="password" name="in_confirmar_contrasena" id="in_confirmar_contrasena">
-	<p></p>
+        <form class="form" id="form_registrarse">
 
-	<input type="submit" name="btn_registrar_usuario" id="btn_registrar_usuario">
+            <h1 class="tituloForm">Formulario de registro</h1>
 
-</form>
+            <label class="labForm">Nombre:<input placeholder="" id="in_nombre_usuario"></input></label>
+            <label class="labForm">Contraseña:<input placeholder="" type="password" id="in_contrasena"></input></label>
+            <label class="labForm">Confirmar contraseña:<input placeholder="" type="password" id="in_confirmar_contrasena"></input></label>
+            <button class="btnValidar" id="btn_registrar_usuario">Registrar</button>
+
+        </form>
+
+    </div>
+
+    <!-- contenedor 2 menu vertical -->
+    <div class="container2">
+
+        <nav id="vertical_navbar">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/3593/3593662.png" alt="Logo" class="imgLogo" id="logo_navbar">
+
+            <a href="index.html" id="link_Registro">
+                <button class="btnRegistro" id="btn_Registro">Volver</button>
+            </a>
+
+        </nav>
+
+    </div>
+
 </body>
-</htmlform_registrarse
+
+</html>
